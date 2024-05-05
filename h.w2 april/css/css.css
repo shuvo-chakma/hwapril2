@@ -1,0 +1,147 @@
+input[type=checkbox]{
+    accent-color: rgb(34, 119, 26);
+}
+input[type=radio]{
+    accent-color: rgb(255, 7, 7);
+}
+
+#vol{
+    accent-color: rgb(9, 2, 110);
+}
+#file{
+    accent-color: rgba(216, 160, 77, 0.678)
+    ;
+}
+#main {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center ;
+    background-color: rgb(63, 100, 133);
+  }
+  
+  #red {
+    width: 70px;
+    height: 70px;
+    border:solid #ffffff 1px;
+    background-color: red;
+
+  }
+  #green {
+    width: 70px;
+    height: 70px;
+    border:solid #ffffff 1px;
+    background-color: green;
+
+  }
+  #blue{
+    width: 70px;
+    height: 70px;
+    border:solid #ffffff 1px;
+    background-color: blue;
+  }
+  #white{
+    width: 70px;
+    height: 70px;
+    border:solid #ffffff 1px;
+    background-color: white;
+  }
+
+  #text1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font: bold;
+    font-family: sans-serif;
+
+  }
+.box{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+    animation-duration: 8s;
+  }
+  
+  @keyframes mymove {
+    0%   {background: rgb(255, 255, 255); left: 0px; top: 0px;}
+    25%  {background: rgb(224, 224, 170); left: 200px; top: 0px;}
+    50%  {background: rgb(185, 184, 76); left: 200px; top: 200px;}
+    75%  {background: rgb(113, 134, 37); left: 0px; top: 200px;}
+    100% {background: rgb(24, 66, 0); left: 0px; top: 0px;}  
+    100% {background: rgb(113, 134, 37); left: 0px; top: 0px;}
+    75%  {background: rgb(185, 184, 76); left: 200px; top: 0px;}
+    50%  {background: rgb(224, 224, 170); left: 200px; top: 200px;}
+    25%  {background: rgb(255, 255, 255); left: 0px; top: 200px;}
+    0%   {background: rgb(24, 66, 0); left: 0px; top: 0px;}
+  }
+ body{
+   background-color:#777777;
+ }
+ .color{
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+ }
+#box1{
+  width: 50px;
+  height: 30px;
+  animation: shuvo infinite;
+  animation-duration: 5s;
+  background: rgb(255, 255, 255);
+  position: relative;
+  animation-fill-mode:forwards;
+  animation-iteration-count: 3;
+}
+@keyframes shuvo{
+  from {left:0px;}
+  to {left:500px; background-color:rgb(221, 0, 0); }
+}
+#bigbox{
+  width: 300px;
+  height:300px;
+  border: 2px solid #ffffff;
+}
+
+#heading{
+  text-align: center;
+  font-size: 50px;
+}
+#head{
+  background-color: #111133;
+  
+}
+.none{
+  text-decoration: none;
+ size: 10px;
+}
+.container{
+  width: 80%;
+  height: 30px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-left: 100px;
+  display: inline-block;
+}
+.container a{
+  margin: 10px;
+  margin-left: 300px;
+  text-decoration: none;
+  color: black;
+}
+.container a:hover{
+  border-bottom: 2px solid rgb(255, 85, 0);
+
+}
+button{
+  background-color: rgb(4, 53, 187); margin-left: 80px; border-radius: 10px ; padding: 10px; width: 90px;
+  text-decoration: none;
+}
+button a{
+  color:rgb(255, 255, 255); font-weight: bold; font-size: 15px;
+}
+*{
+  text-decoration: none;
+}
